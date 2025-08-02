@@ -32,16 +32,16 @@
       "svelte",
       "vite"
     ],
-    "author": "Your Name <your.email@example.com>",
+    "author": "Fredissy",
     "license": "MIT",
     "repository": {
       "type": "git",
-      "url": "https://github.com/yourusername/rollup-plugin-git-info.git"
+      "url": "https://github.com/fredissy/rollup-plugin-git-info.git"
     },
     "bugs": {
-      "url": "https://github.com/yourusername/rollup-plugin-git-info/issues"
+      "url": "https://github.com/fredissy/rollup-plugin-git-info/issues"
     },
-    "homepage": "https://github.com/yourusername/rollup-plugin-git-info#readme",
+    "homepage": "https://github.com/fredissy/rollup-plugin-git-info#readme",
     "devDependencies": {
       "rollup": "^4.0.0",
       "@rollup/plugin-node-resolve": "^15.0.0"
