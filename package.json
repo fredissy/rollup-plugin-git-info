@@ -1,0 +1,56 @@
+{
+    "name": "rollup-plugin-git-info",
+    "version": "1.0.0",
+    "description": "A Rollup plugin that injects git commit and branch information at build time",
+    "main": "dist/index.js",
+    "module": "dist/index.mjs",
+    "types": "dist/index.d.ts",
+    "exports": {
+      ".": {
+        "import": "./dist/index.mjs",
+        "require": "./dist/index.js",
+        "types": "./dist/index.d.ts"
+      }
+    },
+    "files": [
+      "dist",
+      "README.md",
+      "LICENSE"
+    ],
+    "scripts": {
+      "build": "rollup -c",
+      "prepublishOnly": "npm run build",
+      "test": "node test/test.js"
+    },
+    "keywords": [
+      "rollup",
+      "plugin",
+      "git",
+      "build",
+      "commit",
+      "branch",
+      "svelte",
+      "vite"
+    ],
+    "author": "Your Name <your.email@example.com>",
+    "license": "MIT",
+    "repository": {
+      "type": "git",
+      "url": "https://github.com/yourusername/rollup-plugin-git-info.git"
+    },
+    "bugs": {
+      "url": "https://github.com/yourusername/rollup-plugin-git-info/issues"
+    },
+    "homepage": "https://github.com/yourusername/rollup-plugin-git-info#readme",
+    "devDependencies": {
+      "rollup": "^4.0.0",
+      "@rollup/plugin-node-resolve": "^15.0.0"
+    },
+    "peerDependencies": {
+      "rollup": ">=2.0.0"
+    },
+    "engines": {
+      "node": ">=14.0.0"
+    }
+  }
+  
